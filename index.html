@@ -9,16 +9,6 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="wrapper"> <!--Main wrapper for my content-->
-            <div class="main-box">
-                <h1>Do You Want to Check a Palindrome?</h1><!--making this my title with an H1-->
-                <h3>Type in a word below and click "Check" to Check if it is a Palindrome!</h3><!--directions-->
-                <div class="item">
-                    <input type="text" id="txt" class="txt"><!--my input box-->
-                    <button class="btn" onclick="check()">Check it!</button><!--Button for submissions-->
-                    <input id="result"></input><!--This is where my message will show-->
-                </div>
-            </div>
             <div id="name-info">
                 <form>
                     <h1>Who are You?</h1>
@@ -29,6 +19,7 @@
                         <label for="zipCode">Zip Code</label>
                         <input type="number" id="zipCode" required>
                         <button type="submit" id="submit">Submit</button>
+                    <h4>Do you want to hear the classroom? Push play!</h4>
                         <input type="button" value="PLAY" onclick="play()">
                         <audio id="audio" src="us-lab-background-1.mp3"></audio>
                 </form>
